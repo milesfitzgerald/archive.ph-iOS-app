@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 63;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03213B1A6FDC21EEE8A208B3 /* ReaderSettingsPopover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507EE7FC6B9D624872AB6A42 /* ReaderSettingsPopover.swift */; };
+		0C890CC5C2F3AE468220DEDC /* ExtractedArticle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075ECF9C20C4683A3C006A6E /* ExtractedArticle.swift */; };
+		0D3D9D5C05808F013778BE59 /* ArticleReaderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8B9A2456D58E0EEA1FF0960 /* ArticleReaderViewModel.swift */; };
+		1C5E5DF8EC763E2066E2A8F9 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E8D89F00399DDE5A7D6AA9 /* WebView.swift */; };
+		200B530096FA0F7C39E579E5 /* ArticleReaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA149624539708D9E78088DF /* ArticleReaderView.swift */; };
+		23C602612A722B1D7FCEA995 /* PersistenceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90547A6E9706E09E8175BAFC /* PersistenceController.swift */; };
+		3F59009EC290B80965FD07C5 /* DeepLinkHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2932E5267852CA065065BCE1 /* DeepLinkHandler.swift */; };
+		4299451C316D92F3CB9B58EB /* ArchiveReaderShareExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 77F961C183475F5776D44198 /* ArchiveReaderShareExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		42AB00E21ADD4FAA6355FEEF /* ReaderSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA1CDEAC42C4233246D52E9 /* ReaderSettings.swift */; };
+		4ABBC87146B14ED85D4AB46F /* ArchivedArticle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F5C35C729B1C12C439D23DD /* ArchivedArticle.swift */; };
+		4C9825E52E2EEA14F5519E82 /* ShareExtensionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F9D6DE807E0DF825E723FF /* ShareExtensionView.swift */; };
+		54FA1C067F97FD56FDA509C5 /* ReaderModeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AE5636DF2BA9855D7415FDD /* ReaderModeService.swift */; };
+		5BB9F9A4A349CD4177F19017 /* ArchiveReaderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F72BDF9B483B68E71A3E1E /* ArchiveReaderApp.swift */; };
+		5FFD0E79CBC239BC69B48B59 /* ArchivedArticle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F5C35C729B1C12C439D23DD /* ArchivedArticle.swift */; };
+		652B1C86768FFD5D452ECE3B /* ExtractedArticle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075ECF9C20C4683A3C006A6E /* ExtractedArticle.swift */; };
+		82CEE188ED57D183A63052BB /* JavaScript in Resources */ = {isa = PBXBuildFile; fileRef = 7C1B2F98A23144328B0353C6 /* JavaScript */; };
+		83C43F5A295D502FD1D60CE4 /* ShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C5F0CD20CEE8B1D0F47597 /* ShareViewController.swift */; };
+		9166CCCA3F8682F8B825D474 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22275AAE0D6FB64713603550 /* Constants.swift */; };
+		9CCCC383A271B3B3CE5DB30B /* URLExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8780462F3F002F9F2D93FA3 /* URLExtensions.swift */; };
+		A848C1D7ECD61D30371972BD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804F693CDF41F8583F3EFB98 /* ContentView.swift */; };
+		AE48D4134AAF804D4B1211BF /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22275AAE0D6FB64713603550 /* Constants.swift */; };
+		B0F065348B86832F44B8D495 /* ReaderSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA1CDEAC42C4233246D52E9 /* ReaderSettings.swift */; };
+		C0272C785F428BC21811D5E9 /* ArchiveService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9D6149976380DE83EE5FF4A /* ArchiveService.swift */; };
+		C4CAAA26FBB2CD33CEAF9A94 /* ArticleRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741F8A02B938BC7B3DDA01DC /* ArticleRowView.swift */; };
+		C87E6AFA41EA54E32F388BD9 /* ReaderWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EA3271103436453E3219737 /* ReaderWebView.swift */; };
+		CA9A4870D8825AFC56D38B6C /* URLExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8780462F3F002F9F2D93FA3 /* URLExtensions.swift */; };
+		CBD83F5F48EB3891B91AA3AA /* PersistenceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90547A6E9706E09E8175BAFC /* PersistenceController.swift */; };
+		D154E26181961126BBFD286E /* ArchiveService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9D6149976380DE83EE5FF4A /* ArchiveService.swift */; };
+		D26E12B465426F5AC514432E /* ManualArchiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F829158B05ADAF9060881035 /* ManualArchiveView.swift */; };
+		DD2B1E8E0F2EE990E14F080F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D12A44440008C419A91B359 /* Assets.xcassets */; };
+		DEA6C4F870E8626AFF66DB75 /* DeepLinkHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2932E5267852CA065065BCE1 /* DeepLinkHandler.swift */; };
+		EF8EA48BB4B0598822AF36C4 /* ArticleListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71041F965BB56BC697AD9FF3 /* ArticleListView.swift */; };
+		F4709913296A0CB2087CA935 /* EmptyStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E9008BD25EA4255EC74DFFC /* EmptyStateView.swift */; };
+		F4F3C0676EA8610DA73E2F93 /* ReaderModeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AE5636DF2BA9855D7415FDD /* ReaderModeService.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0E715BDF3DAF6EA976CA2071 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 51B0543A2D8CC0C540FFAF32 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 476960BF23031FCA52F54699;
+			remoteInfo = ArchiveReaderShareExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		09E32B0C45C21FA8B5E5D24B /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				4299451C316D92F3CB9B58EB /* ArchiveReaderShareExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		075ECF9C20C4683A3C006A6E /* ExtractedArticle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractedArticle.swift; sourceTree = "<group>"; };
+		22275AAE0D6FB64713603550 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		2932E5267852CA065065BCE1 /* DeepLinkHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeepLinkHandler.swift; sourceTree = "<group>"; };
+		2E481E0AB72073ED972C08BC /* ArchiveReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArchiveReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		337673B1C63F5E895E13DD96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		3E9008BD25EA4255EC74DFFC /* EmptyStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyStateView.swift; sourceTree = "<group>"; };
+		434B099A502E3D36796FDE2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		507EE7FC6B9D624872AB6A42 /* ReaderSettingsPopover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReaderSettingsPopover.swift; sourceTree = "<group>"; };
+		5D12A44440008C419A91B359 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5EA3271103436453E3219737 /* ReaderWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReaderWebView.swift; sourceTree = "<group>"; };
+		6AE5636DF2BA9855D7415FDD /* ReaderModeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReaderModeService.swift; sourceTree = "<group>"; };
+		71041F965BB56BC697AD9FF3 /* ArticleListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleListView.swift; sourceTree = "<group>"; };
+		71F9D6DE807E0DF825E723FF /* ShareExtensionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareExtensionView.swift; sourceTree = "<group>"; };
+		741F8A02B938BC7B3DDA01DC /* ArticleRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleRowView.swift; sourceTree = "<group>"; };
+		77F961C183475F5776D44198 /* ArchiveReaderShareExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = ArchiveReaderShareExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C1B2F98A23144328B0353C6 /* JavaScript */ = {isa = PBXFileReference; lastKnownFileType = folder; name = JavaScript; path = ArchiveReader/Resources/JavaScript; sourceTree = SOURCE_ROOT; };
+		804F693CDF41F8583F3EFB98 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		90547A6E9706E09E8175BAFC /* PersistenceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceController.swift; sourceTree = "<group>"; };
+		9AA1CDEAC42C4233246D52E9 /* ReaderSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReaderSettings.swift; sourceTree = "<group>"; };
+		9F5C35C729B1C12C439D23DD /* ArchivedArticle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArchivedArticle.swift; sourceTree = "<group>"; };
+		A1C5F0CD20CEE8B1D0F47597 /* ShareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareViewController.swift; sourceTree = "<group>"; };
+		BA149624539708D9E78088DF /* ArticleReaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleReaderView.swift; sourceTree = "<group>"; };
+		C6F72BDF9B483B68E71A3E1E /* ArchiveReaderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArchiveReaderApp.swift; sourceTree = "<group>"; };
+		C8B9A2456D58E0EEA1FF0960 /* ArticleReaderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleReaderViewModel.swift; sourceTree = "<group>"; };
+		C9D6149976380DE83EE5FF4A /* ArchiveService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArchiveService.swift; sourceTree = "<group>"; };
+		D0B6DBD210CD24AFAAF743AB /* ArchiveReader.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ArchiveReader.entitlements; sourceTree = "<group>"; };
+		D6827FBC266D3330F5DA347C /* ArchiveReaderShareExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ArchiveReaderShareExtension.entitlements; sourceTree = "<group>"; };
+		D8E8D89F00399DDE5A7D6AA9 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		F829158B05ADAF9060881035 /* ManualArchiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManualArchiveView.swift; sourceTree = "<group>"; };
+		F8780462F3F002F9F2D93FA3 /* URLExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLExtensions.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		16A1059856165E84A823ADF7 /* ArchiveReader */ = {
+			isa = PBXGroup;
+			children = (
+				D0B6DBD210CD24AFAAF743AB /* ArchiveReader.entitlements */,
+				5D12A44440008C419A91B359 /* Assets.xcassets */,
+				434B099A502E3D36796FDE2B /* Info.plist */,
+				C5575F7AFBDD6873C06E2B2E /* App */,
+				2D1C7F3AABE35C34A2EFC592 /* Resources */,
+				97775DB72D81C2935EAE37A1 /* ViewModels */,
+				A2E8104BF821FB9534075242 /* Views */,
+			);
+			path = ArchiveReader;
+			sourceTree = "<group>";
+		};
+		2A3A499B33B51CED6C2736E1 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				C9D6149976380DE83EE5FF4A /* ArchiveService.swift */,
+				2932E5267852CA065065BCE1 /* DeepLinkHandler.swift */,
+				90547A6E9706E09E8175BAFC /* PersistenceController.swift */,
+				6AE5636DF2BA9855D7415FDD /* ReaderModeService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		2D1C7F3AABE35C34A2EFC592 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		305DD186F4C22297672A2BC7 /* ArchiveReaderShareExtension */ = {
+			isa = PBXGroup;
+			children = (
+				D6827FBC266D3330F5DA347C /* ArchiveReaderShareExtension.entitlements */,
+				337673B1C63F5E895E13DD96 /* Info.plist */,
+				71F9D6DE807E0DF825E723FF /* ShareExtensionView.swift */,
+				A1C5F0CD20CEE8B1D0F47597 /* ShareViewController.swift */,
+			);
+			path = ArchiveReaderShareExtension;
+			sourceTree = "<group>";
+		};
+		59619EE97FB6E1180486D186 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9F5C35C729B1C12C439D23DD /* ArchivedArticle.swift */,
+				075ECF9C20C4683A3C006A6E /* ExtractedArticle.swift */,
+				9AA1CDEAC42C4233246D52E9 /* ReaderSettings.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		97775DB72D81C2935EAE37A1 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				C8B9A2456D58E0EEA1FF0960 /* ArticleReaderViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		9FD76739D51EAB97787D8E92 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2E481E0AB72073ED972C08BC /* ArchiveReader.app */,
+				77F961C183475F5776D44198 /* ArchiveReaderShareExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A2E8104BF821FB9534075242 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				71041F965BB56BC697AD9FF3 /* ArticleListView.swift */,
+				BA149624539708D9E78088DF /* ArticleReaderView.swift */,
+				741F8A02B938BC7B3DDA01DC /* ArticleRowView.swift */,
+				804F693CDF41F8583F3EFB98 /* ContentView.swift */,
+				3E9008BD25EA4255EC74DFFC /* EmptyStateView.swift */,
+				F829158B05ADAF9060881035 /* ManualArchiveView.swift */,
+				507EE7FC6B9D624872AB6A42 /* ReaderSettingsPopover.swift */,
+				5EA3271103436453E3219737 /* ReaderWebView.swift */,
+				D8E8D89F00399DDE5A7D6AA9 /* WebView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C50E660F205D19488B3173BC = {
+			isa = PBXGroup;
+			children = (
+				7C1B2F98A23144328B0353C6 /* JavaScript */,
+				16A1059856165E84A823ADF7 /* ArchiveReader */,
+				305DD186F4C22297672A2BC7 /* ArchiveReaderShareExtension */,
+				F7E8C81DB289F2855063F7FC /* Shared */,
+				9FD76739D51EAB97787D8E92 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C5575F7AFBDD6873C06E2B2E /* App */ = {
+			isa = PBXGroup;
+			children = (
+				C6F72BDF9B483B68E71A3E1E /* ArchiveReaderApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		EC07D7CCC5980F4C0ED90E86 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				22275AAE0D6FB64713603550 /* Constants.swift */,
+				F8780462F3F002F9F2D93FA3 /* URLExtensions.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		F7E8C81DB289F2855063F7FC /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				59619EE97FB6E1180486D186 /* Models */,
+				2A3A499B33B51CED6C2736E1 /* Services */,
+				EC07D7CCC5980F4C0ED90E86 /* Utilities */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		13570F04724146DC2EC5395E /* ArchiveReader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A341B030A072D25FC0DDF186 /* Build configuration list for PBXNativeTarget "ArchiveReader" */;
+			buildPhases = (
+				3B82E7CCA46F4B880C6726DB /* Sources */,
+				3556F9BA377745EEF7DD4653 /* Resources */,
+				09E32B0C45C21FA8B5E5D24B /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB3D593EAA989BA172ED5539 /* PBXTargetDependency */,
+			);
+			name = ArchiveReader;
+			packageProductDependencies = (
+			);
+			productName = ArchiveReader;
+			productReference = 2E481E0AB72073ED972C08BC /* ArchiveReader.app */;
+			productType = "com.apple.product-type.application";
+		};
+		476960BF23031FCA52F54699 /* ArchiveReaderShareExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4EC1AD311913421ED0C83999 /* Build configuration list for PBXNativeTarget "ArchiveReaderShareExtension" */;
+			buildPhases = (
+				438536CF5B7CB7DE268A989D /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ArchiveReaderShareExtension;
+			packageProductDependencies = (
+			);
+			productName = ArchiveReaderShareExtension;
+			productReference = 77F961C183475F5776D44198 /* ArchiveReaderShareExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		51B0543A2D8CC0C540FFAF32 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1600;
+			};
+			buildConfigurationList = 1AC393C1230543A47C65F561 /* Build configuration list for PBXProject "ArchiveReader" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = C50E660F205D19488B3173BC;
+			minimizedProjectReferenceProxies = 1;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13570F04724146DC2EC5395E /* ArchiveReader */,
+				476960BF23031FCA52F54699 /* ArchiveReaderShareExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3556F9BA377745EEF7DD4653 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD2B1E8E0F2EE990E14F080F /* Assets.xcassets in Resources */,
+				82CEE188ED57D183A63052BB /* JavaScript in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3B82E7CCA46F4B880C6726DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BB9F9A4A349CD4177F19017 /* ArchiveReaderApp.swift in Sources */,
+				D154E26181961126BBFD286E /* ArchiveService.swift in Sources */,
+				4ABBC87146B14ED85D4AB46F /* ArchivedArticle.swift in Sources */,
+				EF8EA48BB4B0598822AF36C4 /* ArticleListView.swift in Sources */,
+				200B530096FA0F7C39E579E5 /* ArticleReaderView.swift in Sources */,
+				0D3D9D5C05808F013778BE59 /* ArticleReaderViewModel.swift in Sources */,
+				C4CAAA26FBB2CD33CEAF9A94 /* ArticleRowView.swift in Sources */,
+				AE48D4134AAF804D4B1211BF /* Constants.swift in Sources */,
+				A848C1D7ECD61D30371972BD /* ContentView.swift in Sources */,
+				3F59009EC290B80965FD07C5 /* DeepLinkHandler.swift in Sources */,
+				F4709913296A0CB2087CA935 /* EmptyStateView.swift in Sources */,
+				652B1C86768FFD5D452ECE3B /* ExtractedArticle.swift in Sources */,
+				D26E12B465426F5AC514432E /* ManualArchiveView.swift in Sources */,
+				CBD83F5F48EB3891B91AA3AA /* PersistenceController.swift in Sources */,
+				54FA1C067F97FD56FDA509C5 /* ReaderModeService.swift in Sources */,
+				B0F065348B86832F44B8D495 /* ReaderSettings.swift in Sources */,
+				03213B1A6FDC21EEE8A208B3 /* ReaderSettingsPopover.swift in Sources */,
+				C87E6AFA41EA54E32F388BD9 /* ReaderWebView.swift in Sources */,
+				CA9A4870D8825AFC56D38B6C /* URLExtensions.swift in Sources */,
+				1C5E5DF8EC763E2066E2A8F9 /* WebView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		438536CF5B7CB7DE268A989D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0272C785F428BC21811D5E9 /* ArchiveService.swift in Sources */,
+				5FFD0E79CBC239BC69B48B59 /* ArchivedArticle.swift in Sources */,
+				9166CCCA3F8682F8B825D474 /* Constants.swift in Sources */,
+				DEA6C4F870E8626AFF66DB75 /* DeepLinkHandler.swift in Sources */,
+				0C890CC5C2F3AE468220DEDC /* ExtractedArticle.swift in Sources */,
+				23C602612A722B1D7FCEA995 /* PersistenceController.swift in Sources */,
+				F4F3C0676EA8610DA73E2F93 /* ReaderModeService.swift in Sources */,
+				42AB00E21ADD4FAA6355FEEF /* ReaderSettings.swift in Sources */,
+				4C9825E52E2EEA14F5519E82 /* ShareExtensionView.swift in Sources */,
+				83C43F5A295D502FD1D60CE4 /* ShareViewController.swift in Sources */,
+				9CCCC383A271B3B3CE5DB30B /* URLExtensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CB3D593EAA989BA172ED5539 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 476960BF23031FCA52F54699 /* ArchiveReaderShareExtension */;
+			targetProxy = 0E715BDF3DAF6EA976CA2071 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2D2E6212739357B6ABF90C93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		60126D0E9C19CC4AA0912D0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = ArchiveReaderShareExtension/ArchiveReaderShareExtension.entitlements;
+				DEVELOPMENT_TEAM = YFJ4B8YTR2;
+				INFOPLIST_FILE = ArchiveReaderShareExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.archivereader.app.ShareExtension;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		844CFEB9C3CC4F00DC8038F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = ArchiveReaderShareExtension/ArchiveReaderShareExtension.entitlements;
+				DEVELOPMENT_TEAM = YFJ4B8YTR2;
+				INFOPLIST_FILE = ArchiveReaderShareExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.archivereader.app.ShareExtension;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9B9EBD3246B2BE9A7CD8335C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = ArchiveReader/ArchiveReader.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YFJ4B8YTR2;
+				INFOPLIST_FILE = ArchiveReader/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = OKReader;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.archivereader.app;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C8265BD7AD25B641B50A7290 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = ArchiveReader/ArchiveReader.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YFJ4B8YTR2;
+				INFOPLIST_FILE = ArchiveReader/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = OKReader;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.archivereader.app;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EEE8F77D610B1B6FCBC6B318 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1AC393C1230543A47C65F561 /* Build configuration list for PBXProject "ArchiveReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEE8F77D610B1B6FCBC6B318 /* Debug */,
+				2D2E6212739357B6ABF90C93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		4EC1AD311913421ED0C83999 /* Build configuration list for PBXNativeTarget "ArchiveReaderShareExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60126D0E9C19CC4AA0912D0E /* Debug */,
+				844CFEB9C3CC4F00DC8038F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A341B030A072D25FC0DDF186 /* Build configuration list for PBXNativeTarget "ArchiveReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B9EBD3246B2BE9A7CD8335C /* Debug */,
+				C8265BD7AD25B641B50A7290 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 51B0543A2D8CC0C540FFAF32 /* Project object */;
+}
