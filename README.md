@@ -8,9 +8,7 @@
 
 ```
 
-<p align="center">
-  <img src="ArchiveReader/Assets.xcassets/AppIcon.appiconset/AppIcon.png" width="128" height="128" alt="Archive Reader icon" style="border-radius: 22%;" />
-</p>
+
 
 <p align="center">
   <em>Read the web. Without the web reading you back.</em>
